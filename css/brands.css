@@ -28,10 +28,17 @@
 	filter:var(--icon-filter,none);
 }
 
-/* Color Specific Buttons */
+/* Color Specific Buttons (Added By Me) */
 .button.button-grey {
 	--button-text:#ffffff;
 	--button-background:#282828;
+	--button-border:1px solid #ffffff;
+}
+
+/* Additional Brands (Added By Me) */
+.button.button-obsidian {
+	--button-text:#ffffff;
+	--button-background:#262626;
 	--button-border:1px solid #ffffff;
 }
 
